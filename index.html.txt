@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Store</h1>
+    <div class="cart">Cart: <span id="cart-count">0</span></div>
+  </header>
+
+  <main class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h2>Cool T-Shirt</h2>
+      <p>$19.99</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <!-- Add more products here -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
