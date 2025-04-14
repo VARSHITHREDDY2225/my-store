@@ -12,15 +12,15 @@
     <div class="cart">Cart: <span id="cart-count">0</span></div>
   </header>
 
-  <main class="products">
-    <div class="product">
-      <img src="https://via.placeholder.com/200" alt="Product 1">
-      <h2>Cool T-Shirt</h2>
-      <p>$19.99</p>
-      <button onclick="addToCart()">Add to Cart</button>
-    </div>
-    <!-- Add more products here -->
-  </main>
+ <main class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Product 1">
+    <h2>Cool T-Shirt</h2>
+    <p>$19.99</p>
+    <button onclick="addToCart('Cool T-Shirt')">Add to Cart</button>
+  </div>
+</main>
+
 
   <script src="script.js"></script>
 </body>
