@@ -2,26 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Store</title>
+  <title>Gentleman Jones - Clothing Store</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <span>📞 Call Us: (123) 456-7890</span>
+    <span class="right">My Account 👤</span>
+  </div>
+
+  <!-- Header -->
   <header>
-    <h1>My Store</h1>
-    <div class="cart">Cart: <span id="cart-count">0</span></div>
+    <h1>GENTLEMAN JONES</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">New Collection</a>
+      <a href="#">New Arrivals</a>
+      <a href="#">Sale</a>
+      <a href="#">Menswear</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact Us</a>
+    </nav>
   </header>
 
- <main class="products">
-  <div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 1">
-    <h2>Cool T-Shirt</h2>
-    <p>$19.99</p>
-    <button onclick="addToCart('Cool T-Shirt')">Add to Cart</button>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>men's collection</h2>
+      <p>From t-shirt, jeans, jackets, watches, bags, sunglasses</p>
+      <a href="#" class="btn">SHOP NOW</a>
+    </div>
+    <img src="images/hero.jpg" alt="Model">
+  </section>
+
+  <!-- Info Bar -->
+  <div class="info-bar">
+    <div>🚚 FREE SHIPPING on orders over $200</div>
+    <div>↩️ 30 Days Return</div>
+    <div>🔒 100% Payment Secure</div>
   </div>
-</main>
 
+  <!-- Product Categories -->
+  <section class="products">
+    <div class="product-card">
+      <img src="images/sunglasses.jpg" alt="Sunglasses">
+      <h3>Men's Sunglasses</h3>
+      <a href="#" class="btn-small">Shop Now</a>
+    </div>
+    <div class="product-card">
+      <img src="images/sneakers.jpg" alt="Sneakers">
+      <h3>Men's Sneakers</h3>
+      <a href="#" class="btn-small">Shop Now</a>
+    </div>
+    <div class="product-card">
+      <img src="images/tshirt.jpg" alt="T-shirt">
+      <h3>Men's T-Shirt</h3>
+      <a href="#" class="btn-small">Shop Now</a>
+    </div>
+  </section>
 
-  <script src="script.js"></script>
 </body>
 </html>
